@@ -2090,7 +2090,7 @@
 
     // Just to pretty print the result
 
-    document.getElementById("data").innerHTML = "<span style='background-color: green;'> Found <br><br><br>"+ notFoundCode.length +"</span>" + JSON.stringify(
+    document.getElementById("data").innerHTML = "<span style='background-color: green;'> Created "+ inputCurrencies.length +" We've not found " + notFoundCode.length + "<br><br><br></span>" + JSON.stringify(
         inputCurrencies,
         null,
         4

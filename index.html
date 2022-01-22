@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #flags{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        }
+        #flags img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <div id="flags"></div>
     <pre id="data"></pre>
     <pre id="notFound"></pre>
-    <script src="index.js"></script>
+<!--    Data Images JS File -->
+<!--    <script src="index.js"></script>-->
+<!--    SVG Flag images   -->
+    <script src="svg.js"></script>
 </body>
 </html>
