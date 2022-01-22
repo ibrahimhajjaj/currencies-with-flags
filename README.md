@@ -1,5 +1,9 @@
+![image](https://user-images.githubusercontent.com/23178074/150635062-9614d799-f045-460d-817f-e68468cfc822.png)
+
+
+
 # currencies-with-flags
-This JavaScript file will create a currencies json that contains currency flag as data image, currency codes, currency name, currency base country name, currency base country code.
+This JavaScript file will create a currencies json that contains currency flag as data image or svg flag, currency codes, currency name, currency base country name, currency base country code.
 
     // [
     //     {
